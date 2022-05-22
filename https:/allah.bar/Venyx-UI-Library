@@ -2168,14 +2168,4 @@ do
 	end
 end
 
-warn("VERDANT LOADING.")
-warn("VERDANT LOADING..")
-warn("VERDANT LOADING...")
-warn("VERDANT LOADED...")
-    game.StarterGui:SetCore("SendNotification", {
-        Title = "VERDANT.",
-        Text = "Verdant has finished loading."
-    })
-end)
-
 return library
